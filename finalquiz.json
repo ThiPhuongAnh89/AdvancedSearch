@@ -1,0 +1,47 @@
+{
+  "finalquiz": {
+    "rightanswers": "b,a,d,a,c",
+    "question": [
+      {
+        "qnumber": "1",
+        "qtitle": "In a switch statement, the ________ case clause is used to process exceptional conditions and is usually listed last.",
+        "a": "break",
+        "b": "default",
+        "c": "else",
+        "d": "then"
+      },
+      {
+        "qnumber": "2",
+        "qtitle": "The technique of developing and maintaining a large program by constructing it from small, simple pieces is called ________.",
+        "a": "divide and conquer",
+        "b": "modular programming",
+        "c": "multitasking",
+        "d": "multiprogramming"
+      },
+      {
+        "qnumber": "3",
+        "qtitle": "All variables declared in function definitions are ________.",
+        "a": "global variables",
+        "b": "static variables",
+        "c": "constant variables",
+        "d": "local variables"
+      },
+      {
+        "qnumber": "4",
+        "qtitle": "A function’s ________ are also considered to be local variables.",
+        "a": "parameters",
+        "b": "static variables",
+        "c": "register variables",
+        "d": "constant variables"
+      },
+      {
+        "qnumber": "5",
+        "qtitle": "The style of programming in which the user interacts with a GUI component is called ________ programming. ",
+        "a": "modular",
+        "b": "automatic",
+        "c": "event driven",
+        "d": "object oriented"
+      }
+    ]
+  }
+}

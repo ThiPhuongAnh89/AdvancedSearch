@@ -1,0 +1,268 @@
+/*lab2.css - stylesheet examples*/
+/*
+body
+{
+	align-content: center;
+	background-color: papayawhip;
+}
+
+div.center{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 100%;
+}
+h1
+{
+	text-align: center;
+	font-size: 5ch;
+	font-family: Arial, Helvetica;
+	color: red;
+}
+
+h1.contactme{
+	text-align: center;
+	font-size: 5ch;
+	font-family: Arial, Helvetica;
+	color: deepskyblue;
+}
+
+.centeredTable{
+	margin: 0 auto;
+	width: 500px;
+}
+
+
+h2
+{
+	font-family: Arial, Helvetica;
+	font-style: italic;
+	color: blue;
+}
+
+h2.even{
+	text-align: center;
+	color: white;
+	font-size: 20px;
+}
+
+
+
+h2.odd {
+	text-align: center;
+	color: deepskyblue;
+	font-size: 20px;
+}
+
+p
+{
+
+	font-family: Arial, Helvetica;
+	font-style: italic;
+	color: blue;
+}
+p.center
+{
+	font-family: Arial, Helvetica;
+	text-align: center;
+
+}
+a:hover
+{
+	color: red;
+}
+
+.course_infor_table
+{
+	width: 100%;
+	font-size: 20px;
+
+
+
+}
+
+.course_time_table
+{
+	width: 100%;
+	font-size: 15px;
+	border-collapse: collapse;
+
+
+
+
+}
+td, th
+{
+	border: solid;
+}
+
+*/
+
+.header {
+    background-color: red;
+    background-size: 100% 100%;
+    margin-bottom: 3%;
+}
+
+.left1{
+    float: left;
+    
+}
+
+.right1{
+    float: right;
+    
+}
+
+table.navigation{
+    width: 100%;
+    
+}
+
+
+#left {	
+	float: left;
+	padding: 20px;
+	width: 190px;
+    background-image: linear-gradient(to right bottom,#a1c4fd,#c2e9fb);
+}
+
+
+
+#center {
+	margin-left: 200px;
+	padding: 20px;	
+	border-left: navy 1px dotted;
+	border-right: navy 1px dotted;
+}
+
+
+.background {
+    background-image: url("image/geometry2.png");
+}
+
+table.form1 {
+    
+    border: solid;
+    border-style:inset;
+    margin-left:auto; 
+    margin-right:auto;
+    background-color: lightgrey;
+    width: 40%;
+}
+
+table.js{
+   margin-left:auto; 
+    margin-right:auto; 
+    width:60%;
+    margin-bottom: 25px;
+}
+
+table.index{
+   margin-left:auto; 
+    margin-right:auto; 
+    width:70%;
+    margin-bottom: 25px;
+}
+
+
+
+table.quizgrade{
+    background-color: lightgray;
+   margin-left:auto; 
+    margin-right:auto; 
+    width:20%;
+}
+
+.hide {
+    display: none;
+}
+
+.show {
+    background-color: #f7f7f7;
+}
+
+.internal {
+    padding: 15px;
+}
+
+.internal table {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.internal tr th {
+    border-bottom: 1px solid #ccc;
+    text-align: center;
+}
+
+.internal tr td {
+    border-bottom: 1px solid #ccc;
+    text-align: center;
+}
+
+.center {
+    text-align: center
+}
+
+
+.error {
+	background-color: red;
+}
+
+.divider {
+	color: navy;
+	border-bottom: dotted navy 1px;
+	margin: 0;
+}
+
+.scroll {
+    overflow-y: scroll;
+    height: 500px;
+    width: 70%;
+}
+
+.scrollpartB {
+    overflow-y: scroll;
+    height: 500px;
+    width: 95%;
+}
+
+
+h1{
+    margin-bottom: 1rem;
+    font-weight: 300;
+    letter-spacing: 3px;
+    color: cornflowerblue;
+}
+
+h2{
+    font-weight: 300;
+    letter-spacing: 3px;
+}
+
+input{
+    padding: .5rem 0.65rem;
+    border-radius: 5px;
+    border: solid 1px transparent;
+    outline: none;
+    margin-top: 3px;
+    margin-bottom: 3px;
+}
+
+input.quizbutton {
+    text-align: center;
+    width: 40%;
+margin-left: 30%;
+margin-right: 30%
+}
+
+
+img{
+    height:150px;
+    width: 150px;
+    float: right;
+}
+
+

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>partB - AJAX with XML</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <script type="text/javascript" src="partB.js"></script>
+</head>
+
+
+<body class="background" onload="initialization();">
+     <h1 class="center"><b>CPRG256 – Final Project </b></h1>
+    <h4 class="center"> THI PHUONG ANH - 000787900 </h4>
+   
+    
+    <div class="right1"><a href="advancedsearch.html">Go to Advanced search page</a></div>
+    
+    <div class="left1"><a href="index.html">Back to Index page</a></div>
+   <br>     
+<hr>
+   
+    <form>
+        <table class="form1">
+            <tr>
+                <td>
+
+                    <label> <input type="text" id="section" onkeyup="vadidateSection()" placeholder="Please enter A-D and 1-16" title="Please enter  A-D and 1-16 " /> <br>Section</label>
+                </td>
+                <td>
+
+                    <label><input type="text" id="township" onkeyup="vadidateTownship()" placeholder="enter the range: 1-126 " title="please enter the Township range: 1-126 " /> <br>Township</label>
+                </td>
+                <td>
+
+                    <label> <input type="text" id="range" onkeyup="vadidateRange()" placeholder="please enter the range: 1-126 " title="please enter the range: 1-126 " /> <br>Range</label>
+                </td>
+                <td>
+
+                    <label> <input type="text" id="meridian" onkeyup="vadidateMeridian()" placeholder="please enter W and 4-6 " title="please enter the Meridian: W and 4-6 " /> <br>Meridian</label>
+                </td>
+            </tr>
+            <tr>
+                <td class="center" colspan="2">
+                    <p><label> <input type="radio" name="option" id="opt1" value="full" /><br>Full location </label></p>
+                </td>
+                <td class="center" colspan="2">
+                    <p><label> <input type="radio" name="option" id="opt2" checked value="section" /><br>Section</label></p>
+                </td>
+            </tr>
+            <tr>
+                <td class="center" colspan="2">
+
+                    <input type="button" id="clickme" onclick="loadWellXMLDoc();" value="CLICK ME" />
+                </td>
+                <td class="center" colspan="2"><input type="reset" onclick="ClearSearch();" value="RESET" /></td>
+
+            </tr>
+
+        </table>
+
+       
+    </form>
+    <div><span id="results" class="center"></span></div>
+</body>
+
+</html>

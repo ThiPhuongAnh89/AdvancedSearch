@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>finalquiz</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <script type="text/javascript" src="finalquiz.js"></script>
+</head>
+
+<body class="background" >
+    <h1 class="center"><b>CPRG256 – Final Project </b></h1>
+
+
+    <h4 class="center"> THI PHUONG ANH - 000787900 </h4>
+    <div class="left1"><a href="advancedsearch.html">Back to Advanced search page</a></div>
+    <br>     
+    <hr>
+    <form onsubmit="return false;">
+        <h2 class="center"> Personal Information</h2>
+
+        <table class="form1">
+            <tr>
+                <td class="right">
+
+                    <label> First Name </label></td>
+                <td>
+                    <input size="20" type="text" name="fname" id="fname" pattern="[a-zA-Z-]{1,25}" placeholder="Enter a-z or A-Z  " minlength="1" maxlength="25" title="First Name may not contain any numbers (maximum 25 letters).">
+                </td>
+            </tr>
+
+            <tr>
+                <td class="right">
+                    <label>Last Name </label>
+                </td>
+                <td> <input pattern="[A-Za-z-]{1,25}" type="text" name="lname" id="lname" placeholder="Enter a-z or A-Z " title="Last Name may not contain any numbers (maximum 25 letters).">
+
+                </td>
+            </tr>
+            <tr>
+                <td><label> Province </label></td>
+                <td>
+                    <select id="province">
+
+                        <option value="AB">AB</option>
+                        <option value="BC">BC</option>
+                        <option value="MB">MB</option>
+                        <option value="NB">NB</option>
+                        <option value="NL">NL</option>
+                        <option value="NS">NS</option>
+                        <option value="ON">ON</option>
+                        <option value="PE">PE</option>
+                        <option value="QC">QC</option>
+                        <option value="SK">SK</option>
+                        <option value="NT">NT</option>
+                        <option value="NU">NU</option>
+                        <option value="YT">YT</option>
+                    </select>
+                </td>
+            </tr>
+
+            <tr>
+                <td class="right">
+                    <label>City </label></td>
+                <td> <input placeholder="Please enter the city name " title="Please enter the city name " type="text" name="city" size="20" id="city"  /></td>
+            </tr>
+           
+        </table>
+        <br>
+        <br>
+
+       <div class = "center"> <input type="submit" value="Start Quiz" onclick="loadTheQuiz(this);"> </div>
+        
+    <table class="js"> <tr> <td>  <div  id="quiz"></div> </td></tr></table> 
+         </form>
+  
+  
+        
+  <table class="quizgrade"> <tr> <td>  <div class="center"  id="showmark"></div>  </td></tr></table> 
+         
+</body>
+
+</html>

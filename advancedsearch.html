@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>advancedsearch</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <script type="text/javascript" src="partC.js"></script>
+</head>
+
+
+<body class ="background"  onload="initialization()">
+    <h1 class="center"><b>CPRG256 – Final Project </b></h1>
+    <h4 class="center"> THI PHUONG ANH - 000787900 </h4>
+    <div class="right1"><a href="finalquiz.html">Go to Quiz page</a></div>
+    <div class="left1"><a href="partB.html">Back to Part B page</a></div>
+
+    <br>
+    <hr>
+    <form>
+        <div id="left">
+             <h1>Fields</h1>
+            <h2>Searchable</h2>
+            <div class="search">
+            <table>
+                <tr>
+                    <td>
+                        <label> <input onkeyup="searchWellData();" type="text" id="location" /> <br>Well Location</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label> <input onkeyup="searchWellData();" type="text" id="welldepth" /> <br>Depth of Well </label>
+                    </td>
+                </tr>
+                
+                <tr>
+                    <td>
+                        <label> <input onkeyup="searchProductionData()" type="text" id="oilproduction" /> <br>Oil production</label>
+                    </td>
+                    <td>
+                </tr>
+                <tr>
+                    <td>
+                        <label> <input onkeyup="searchProductionData()" type="text" id="gasproduction" /> <br>Gas production</label>
+                    </td>
+                    
+                </tr>
+
+                </table>
+            </div>
+            <div class="other-fields">
+                 <h2>Other fields</h2>
+                  <table>
+                      
+                      
+                <tr>
+                    <td>
+                        <label> <input type="text" id="perfdepth" /> <br>Perfdepth</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label> <input type="text" id="perfzone" /> <br>Perfzone</label>
+                    </td>
+                    <td>
+                </tr>
+                <tr>
+                    <td>
+                        <label> <input type="text" id="stroke" /> <br>Stroke</label>
+                    </td>
+                    <td>
+                </tr>
+                <tr>
+                    <td>
+                        <label> <input type="text" id="strokepermin" /> <br>Strokepermin</label>
+                    </td>
+                   
+                </tr>
+           
+                <tr>
+                    <td>
+                        <label> <input type="text" id="date" /> <br>Date</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label> <input type="text" id="waterproduction" /> <br>Waterproduction</label>
+                    </td>
+                    <td>
+                </tr>
+
+            </table>
+        </div>
+        </div>
+        <div id="center">
+            <table>
+                <tr>
+
+                    <td class="center" ><input type="reset" onclick="ClearSearch();" value="RESET" /></td>
+
+                </tr>
+            </table>
+
+            <div id="results">content to be loaded here</div>
+
+
+        </div>
+    </form>
+</body>
+
+</html>
